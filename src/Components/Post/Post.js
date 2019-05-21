@@ -2,7 +2,12 @@ import React, { Component } from "react";
 
 export class Post extends Component {
   render() {
-    return <div>Post</div>;
+    return (
+      <div>
+        <input type="text" placeholder="Title" />
+        <input type="file" />
+      </div>
+    );
   }
 }
 
