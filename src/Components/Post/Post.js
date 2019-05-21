@@ -6,6 +6,7 @@ export class Post extends Component {
       <div>
         <input type="text" placeholder="Title" />
         <input type="file" />
+        <button type="submit">Submit</button>
       </div>
     );
   }
