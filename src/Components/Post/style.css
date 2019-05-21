@@ -1,0 +1,7 @@
+.postStyle {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 5px;
+}

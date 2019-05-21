@@ -1,12 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import Post from "./Components/Post/Post";
 
-function App() {
-  return (
-    <div className="App">
-      <Post />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Post />
+      </div>
+    );
+  }
 }
 
 export default App;
