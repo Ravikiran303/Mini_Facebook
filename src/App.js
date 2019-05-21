@@ -1,11 +1,10 @@
-import React from 'react';
-
-
+import React from "react";
+import Post from "./Components/Post/Post";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <Post />
     </div>
   );
 }
